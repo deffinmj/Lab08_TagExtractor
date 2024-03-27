@@ -24,19 +24,16 @@ public class TagExtractorFrame extends JFrame {
         JButton saveTagsBtn = new JButton("Save Tags");
 
         openFileBtn.addActionListener(new ActionListener() {
-            @Override
             public void actionPerformed(ActionEvent e) {
                 openFile();
             }
         });
         extractTagsBtn.addActionListener(new ActionListener() {
-            @Override
             public void actionPerformed(ActionEvent e) {
                 extractTagsFromFile();
             }
         });
         saveTagsBtn.addActionListener(new ActionListener() {
-            @Override
             public void actionPerformed(ActionEvent e) {
                 saveExtractedTags();
             }
